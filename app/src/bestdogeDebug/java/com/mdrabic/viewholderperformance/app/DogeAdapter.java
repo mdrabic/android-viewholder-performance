@@ -2,6 +2,7 @@ package com.mdrabic.viewholderperformance.app;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.os.Debug;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,9 +26,9 @@ public class DogeAdapter extends ArrayAdapter<DogeContent.Doge> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        //Debug.startMethodTracing("happy_doge_large");
+        Debug.startMethodTracing("best_doge_debug");
         View view = getViewTest(position, convertView, parent);
-        //Debug.stopMethodTracing();
+        Debug.stopMethodTracing();
         return view;
     }
 
