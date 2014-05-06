@@ -22,9 +22,9 @@ public class DogeAdapter extends ArrayAdapter<DogeContent.Doge> {
 
     private Drawable avatar;
 
-    public DogeAdapter(int resource, int textViewResourceId, List<DogeContent.Doge> objects) {
-        super(getActivity(), resource, textViewResourceId, objects);
-        avatar = getActivity().getResources().getDrawable(R.drawable.ic_doge_avatar);
+    public DogeAdapter(Context context, int resource, int textViewResourceId, List<DogeContent.Doge> objects) {
+        super(context, resource, textViewResourceId, objects);
+        avatar = context.getResources().getDrawable(R.drawable.ic_doge_avatar);
     }
 
     @Override
