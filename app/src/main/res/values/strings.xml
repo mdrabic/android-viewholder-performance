@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ViewHolderPerformance</string>
-    <string name="title_activity_main">ViewHolder Performance</string>
+    <string name="app_name">ViewHolder Test</string>
+    <string name="title_activity_main">ViewHolder Test</string>
 </resources>

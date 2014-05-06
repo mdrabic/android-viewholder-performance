@@ -1,0 +1,14 @@
+count=50
+speed=1000
+start data >>
+LaunchActivity(com.mdrabic.viewholderperformance.app,com.mdrabic.viewholderperformance.app.MainActivity)
+StartCaptureAppFramerate()
+Drag(150,350,150,40,100)
+UserWait(2000)
+Drag(150,350,150,40,100)
+UserWait(2000)
+Drag(150,350,150,40,100)
+UserWait(2000)
+Drag(150,350,150,40,100)
+UserWait(2000)
+EndCaptureAppFramerate(ViewHolderFPS)
