@@ -42,3 +42,6 @@ Results of running the test on a Galaxy S4 API Level 17 Genymotion emulator.
 | **Real Time/Call** | 8.328  | 0.832  | 0.715  |
 _*Real Time/Call in milliseconds_
 
+![average fps graph](https://raw.github.com/mdrabic/android-viewholder-performance/master/images/linegraph.png)
+
+![average fps graph](https://raw.github.com/mdrabic/android-viewholder-performance/master/images/bargraph.png)
